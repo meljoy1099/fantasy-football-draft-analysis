@@ -1,101 +1,101 @@
-,Rank,Player
-0,1.0,Christian McCaffrey
-1,2.0,Dalvin Cook
-2,3.0,Alvin Kamara
-3,4.0,Derrick Henry
-4,5.0,Ezekiel Elliott
-5,6.0,Davante Adams
-6,7.0,Travis Kelce
-7,8.0,Aaron Jones
-8,9.0,Saquon Barkley
-9,10.0,Austin Ekeler
-10,11.0,Jonathan Taylor
-11,12.0,Nick Chubb
-12,13.0,Tyreek Hill
-13,14.0,Stefon Diggs
-14,15.0,Najee Harris
-15,16.0,DeAndre Hopkins
-16,17.0,Antonio Gibson
-17,18.0,Patrick Mahomes II
-18,19.0,Calvin Ridley
-19,20.0,DK Metcalf
-20,21.0,Joe Mixon
-21,22.0,Darren Waller
-22,23.0,Justin Jefferson
-23,24.0,A.J. Brown
-24,25.0,Clyde Edwards-Helaire
-25,26.0,George Kittle
-26,27.0,Keenan Allen
-27,28.0,Terry McLaurin
-28,29.0,Josh Allen
-29,30.0,David Montgomery
-30,31.0,Allen Robinson II
-31,32.0,Chris Carson 
-32,33.0,CeeDee Lamb
-33,34.0,James Robinson
-34,35.0,Mike Evans
-35,36.0,Josh Jacobs
-36,37.0,D'Andre Swift
-37,38.0,Miles Sanders
-38,39.0,Robert Woods
-39,40.0,Kyler Murray
-40,41.0,Amari Cooper
-41,42.0,Chris Godwin
-42,43.0,Lamar Jackson
-43,44.0,Cooper Kupp
-44,45.0,Julio Jones
-45,46.0,Kyle Pitts
-46,47.0,Tyler Lockett
-47,48.0,Myles Gaskin
-48,49.0,Mark Andrews
-49,50.0,Adam Thielen
-50,51.0,Diontae Johnson
-51,52.0,DJ Moore
-52,53.0,Aaron Rodgers
-53,54.0,Russell Wilson
-54,55.0,Dak Prescott
-55,56.0,Mike Davis
-56,57.0,Kareem Hunt
-57,58.0,T.J. Hockenson
-58,59.0,Darrell Henderson Jr.
-59,60.0,Javonte Williams
-60,61.0,Brandon Aiyuk
-61,62.0,Chase Edmonds
-62,63.0,Justin Herbert
-63,64.0,Tee Higgins
-64,65.0,Gus Edwards
-65,66.0,Odell Beckham Jr.
-66,67.0,Raheem Mostert
-67,68.0,Chase Claypool
-68,69.0,JuJu Smith-Schuster
-69,70.0,Tom Brady
-70,71.0,Damien Harris
-71,72.0,Jerry Jeudy
-72,73.0,Ja'Marr Chase
-73,74.0,Kenny Golladay
-74,75.0,DeVonta Smith
-75,76.0,Robbie Anderson
-76,77.0,Michael Thomas
-77,78.0,Courtland Sutton
-78,79.0,Melvin Gordon III
-79,80.0,Logan Thomas
-80,81.0,Noah Fant
-81,82.0,Leonard Fournette
-82,83.0,Trey Sermon
-83,84.0,Deebo Samuel
-84,85.0,Matthew Stafford
-85,86.0,Robert Tonyan
-86,87.0,Tyler Boyd
-87,88.0,Ronald Jones II
-88,89.0,Laviska Shenault Jr.
-89,90.0,Brandin Cooks
-90,91.0,Michael Carter
-91,92.0,Ryan Tannehill
-92,93.0,Antonio Brown 
-93,94.0,Corey Davis
-94,95.0,Jalen Hurts
-95,96.0,Dallas Goedert
-96,97.0,James Conner
-97,98.0,D.J. Chark Jr.
-98,99.0,Jarvis Landry
-99,100.0,Tampa Bay Buccaneers
+,Player,POS,ADP,Rank,FPTS
+0,Christian McCaffrey,RB,1.0,38.0,127.5
+1,Dalvin Cook,RB,2.0,16.0,206.3
+2,Alvin Kamara,RB,3.0,8.0,234.7
+3,Derrick Henry,RB,4.0,22.0,193.3
+4,Ezekiel Elliott,RB,5.0,7.0,252.1
+5,Davante Adams,WR,6.0,2.0,344.3
+6,Travis Kelce,TE,7.0,2.0,262.8
+7,Aaron Jones,RB,8.0,11.0,229.0
+8,Saquon Barkley,RB,9.0,30.0,148.6
+9,Austin Ekeler,RB,10.0,2.0,343.8
+10,Jonathan Taylor,RB,11.0,1.0,373.1
+11,Nick Chubb,RB,12.0,13.0,215.3
+12,Tyreek Hill,WR,13.0,6.0,296.5
+13,Stefon Diggs,WR,14.0,7.0,285.5
+14,Najee Harris,RB,15.0,3.0,300.7
+15,DeAndre Hopkins,WR,16.0,46.0,147.2
+16,Antonio Gibson,RB,17.0,10.0,229.1
+17,Patrick Mahomes II,QB,18.0,4.0,374.2
+18,Calvin Ridley,WR,19.0,102.0,71.1
+19,DK Metcalf,WR,20.0,14.0,244.3
+20,Joe Mixon,RB,21.0,4.0,287.9
+21,Darren Waller,TE,22.0,17.0,133.5
+22,Justin Jefferson,WR,23.0,4.0,330.4
+23,A.J. Brown,WR,24.0,32.0,180.9
+24,Clyde Edwards-Helaire,RB,25.0,46.0,116.5
+25,George Kittle,TE,26.0,4.0,198.0
+26,Keenan Allen,WR,27.0,11.0,257.8
+27,Terry McLaurin,WR,28.0,25.0,213.5
+28,Josh Allen,QB,29.0,1.0,417.7
+29,David Montgomery,RB,30.0,19.0,196.0
+30,Allen Robinson II,WR,31.0,81.0,87.0
+31,Chris Carson ,RB,32.0,0.0,0.0
+32,CeeDee Lamb,WR,33.0,19.0,232.8
+33,James Robinson,RB,34.0,24.0,173.9
+34,Mike Evans,WR,35.0,9.0,262.5
+35,Josh Jacobs,RB,36.0,12.0,226.0
+36,D'Andre Swift,RB,37.0,15.0,208.9
+37,Miles Sanders,RB,38.0,44.0,117.2
+38,Robert Woods,WR,39.0,51.0,137.2
+39,Kyler Murray,QB,40.0,10.0,310.5
+40,Amari Cooper,WR,41.0,27.0,202.5
+41,Chris Godwin,WR,42.0,15.0,242.4
+42,Lamar Jackson,QB,43.0,15.0,253.0
+43,Cooper Kupp,WR,44.0,1.0,439.5
+44,Julio Jones,WR,45.0,92.0,80.4
+45,Kyle Pitts,TE,46.0,6.0,176.6
+46,Tyler Lockett,WR,47.0,16.0,241.4
+47,Myles Gaskin,RB,48.0,25.0,173.6
+48,Mark Andrews,TE,49.0,1.0,301.1
+49,Adam Thielen,WR,50.0,28.0,199.8
+50,Diontae Johnson,WR,51.0,8.0,274.4
+51,DJ Moore,WR,52.0,18.0,237.5
+52,Aaron Rodgers,QB,53.0,6.0,337.3
+53,Russell Wilson,QB,54.0,16.0,248.7
+54,Dak Prescott,QB,55.0,7.0,330.4
+55,Mike Davis,RB,56.0,35.0,138.2
+56,Kareem Hunt,RB,57.0,49.0,110.0
+57,T.J. Hockenson,TE,58.0,15.0,145.3
+58,Darrell Henderson Jr.,RB,59.0,27.0,163.4
+59,Javonte Williams,RB,60.0,17.0,204.9
+60,Brandon Aiyuk,WR,61.0,35.0,170.3
+61,Chase Edmonds,RB,62.0,34.0,143.3
+62,Justin Herbert,QB,63.0,2.0,395.6
+63,Tee Higgins,WR,64.0,24.0,219.1
+64,Gus Edwards,RB,65.0,0.0,0.0
+65,Odell Beckham Jr.,WR,66.0,55.0,129.1
+66,Raheem Mostert,RB,67.0,154.0,2.0
+67,Chase Claypool,WR,68.0,37.0,166.6
+68,JuJu Smith-Schuster,WR,69.0,133.0,34.8
+69,Tom Brady,QB,70.0,3.0,386.7
+70,Damien Harris,RB,71.0,14.0,210.1
+71,Jerry Jeudy,WR,72.0,85.0,85.0
+72,Ja'Marr Chase,WR,73.0,5.0,304.6
+73,Kenny Golladay,WR,74.0,79.0,89.1
+74,DeVonta Smith,WR,75.0,30.0,185.6
+75,Robbie Anderson,WR,76.0,49.0,138.5
+76,Michael Thomas,WR,77.0,0.0,0.0
+77,Courtland Sutton,WR,78.0,44.0,150.2
+78,Melvin Gordon III,RB,79.0,21.0,195.2
+79,Logan Thomas,TE,80.0,44.0,53.6
+80,Noah Fant,TE,81.0,12.0,159.0
+81,Leonard Fournette,RB,82.0,6.0,255.6
+82,Trey Sermon,RB,83.0,99.0,28.3
+83,Deebo Samuel,WR,84.0,3.0,339.0
+84,Matthew Stafford,QB,85.0,5.0,346.8
+85,Robert Tonyan,TE,86.0,49.0,50.4
+86,Tyler Boyd,WR,87.0,31.0,183.8
+87,Ronald Jones II,RB,88.0,62.0,79.2
+88,Laviska Shenault Jr.,WR,89.0,56.0,127.0
+89,Brandin Cooks,WR,90.0,20.0,231.8
+90,Michael Carter,RB,91.0,29.0,154.4
+91,Ryan Tannehill,QB,92.0,12.0,282.3
+92,Antonio Brown ,WR,93.0,0.0,0.0
+93,Corey Davis,WR,94.0,69.0,105.2
+94,Jalen Hurts,QB,95.0,9.0,321.2
+95,Dallas Goedert,TE,96.0,8.0,165.0
+96,James Conner,RB,97.0,5.0,257.7
+97,D.J. Chark Jr.,WR,98.0,136.0,34.4
+98,Jarvis Landry,WR,99.0,52.0,133.0
+99,Tampa Bay Buccaneers,DST,100.0,6.0,141.0

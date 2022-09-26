@@ -1,101 +1,101 @@
-,Rank,Player
-0,1.0,Saquon Barkley
-1,2.0,Christian McCaffrey
-2,3.0,Alvin Kamara
-3,4.0,Ezekiel Elliott
-4,5.0,DeAndre Hopkins
-5,6.0,David Johnson
-6,7.0,Le'Veon Bell
-7,8.0,Davante Adams
-8,9.0,James Conner
-9,10.0,Julio Jones
-10,11.0,Michael Thomas
-11,12.0,Odell Beckham Jr.
-12,13.0,Todd Gurley II
-13,14.0,JuJu Smith-Schuster
-14,15.0,Travis Kelce
-15,16.0,Tyreek Hill
-16,17.0,Nick Chubb
-17,18.0,Dalvin Cook
-18,19.0,Joe Mixon
-19,20.0,Patrick Mahomes II
-20,21.0,Antonio Brown
-21,22.0,Mike Evans
-22,23.0,Adam Thielen
-23,24.0,Keenan Allen
-24,25.0,Leonard Fournette
-25,26.0,George Kittle
-26,27.0,Zach Ertz
-27,28.0,Kerryon Johnson
-28,29.0,Devonta Freeman
-29,30.0,Amari Cooper
-30,31.0,Stefon Diggs
-31,32.0,Aaron Jones
-32,33.0,Josh Jacobs
-33,34.0,Damien Williams
-34,35.0,Julian Edelman
-35,36.0,Chris Carson 
-36,37.0,Derrick Henry
-37,38.0,Brandin Cooks
-38,39.0,T.Y. Hilton
-39,40.0,Robert Woods
-40,41.0,Marlon Mack
-41,42.0,Melvin Gordon III
-42,43.0,Deshaun Watson
-43,44.0,Kenny Golladay
-44,45.0,Mark Ingram II
-45,46.0,David Montgomery
-46,47.0,Chris Godwin
-47,48.0,Tyler Lockett
-48,49.0,Sony Michel
-49,50.0,Cooper Kupp
-50,51.0,Aaron Rodgers
-51,52.0,James White
-52,53.0,Phillip Lindsay
-53,54.0,Tyler Boyd
-54,55.0,Evan Engram
-55,56.0,O.J. Howard
-56,57.0,Calvin Ridley
-57,58.0,Baker Mayfield
-58,59.0,Mike Williams
-59,60.0,A.J. Green
-60,61.0,Hunter Henry
-61,62.0,DJ Moore
-62,63.0,Jarvis Landry
-63,64.0,Matt Ryan
-64,65.0,Alshon Jeffery 
-65,66.0,Tarik Cohen
-66,67.0,Tevin Coleman
-67,68.0,Austin Ekeler
-68,69.0,Jared Cook
-69,70.0,Allen Robinson II
-70,71.0,Miles Sanders
-71,72.0,Josh Gordon
-72,73.0,Kenyan Drake
-73,74.0,Duke Johnson Jr.
-74,75.0,Robbie Anderson
-75,76.0,Drew Brees
-76,77.0,Derrius Guice 
-77,78.0,Carson Wentz
-78,79.0,Chicago Bears
-79,80.0,Vance McDonald
-80,81.0,Sammy Watkins
-81,82.0,Russell Wilson
-82,83.0,Dede Westbrook
-83,84.0,Cam Newton 
-84,85.0,William Fuller V
-85,86.0,Sterling Shepard
-86,87.0,Jared Goff
-87,88.0,Christian Kirk
-88,89.0,David Njoku
-89,90.0,Latavius Murray
-90,91.0,Corey Davis
-91,92.0,Marvin Jones Jr.
-92,93.0,Emmanuel Sanders
-93,94.0,Curtis Samuel
-94,95.0,Jordan Howard
-95,96.0,LeSean McCoy
-96,97.0,Larry Fitzgerald
-97,98.0,Eric Ebron 
-98,99.0,Rashaad Penny
-99,100.0,Ben Roethlisberger 
+,Player,POS,ADP,Rank,FPTS
+0,Saquon Barkley,RB,1.0,10.0,244.1
+1,Christian McCaffrey,RB,2.0,1.0,471.2
+2,Alvin Kamara,RB,3.0,9.0,248.5
+3,Ezekiel Elliott,RB,4.0,3.0,311.7
+4,DeAndre Hopkins,WR,5.0,5.0,269.5
+5,David Johnson,RB,6.0,37.0,141.5
+6,Le'Veon Bell,RB,7.0,16.0,215.0
+7,Davante Adams,WR,8.0,22.0,212.7
+8,James Conner,RB,9.0,35.0,145.5
+9,Julio Jones,WR,10.0,3.0,274.1
+10,Michael Thomas,WR,11.0,1.0,374.6
+11,Odell Beckham Jr.,WR,12.0,25.0,201.3
+12,Todd Gurley II,RB,13.0,14.0,219.4
+13,JuJu Smith-Schuster,WR,14.0,65.0,113.2
+14,Travis Kelce,TE,15.0,1.0,254.3
+15,Tyreek Hill,WR,16.0,32.0,188.3
+16,Nick Chubb,RB,17.0,8.0,255.2
+17,Dalvin Cook,RB,18.0,6.0,292.4
+18,Joe Mixon,RB,19.0,13.0,225.4
+19,Patrick Mahomes II,QB,20.0,8.0,291.9
+20,Antonio Brown,WR,21.0,150.0,16.1
+21,Mike Evans,WR,22.0,15.0,232.7
+22,Adam Thielen,WR,23.0,64.0,114.4
+23,Keenan Allen,WR,24.0,6.0,261.5
+24,Leonard Fournette,RB,25.0,7.0,259.4
+25,George Kittle,TE,26.0,2.0,222.5
+26,Zach Ertz,TE,27.0,4.0,215.6
+27,Kerryon Johnson,RB,28.0,54.0,85.0
+28,Devonta Freeman,RB,29.0,20.0,197.6
+29,Amari Cooper,WR,30.0,10.0,246.5
+30,Stefon Diggs,WR,31.0,24.0,212.1
+31,Aaron Jones,RB,32.0,2.0,314.8
+32,Josh Jacobs,RB,33.0,21.0,191.6
+33,Damien Williams,RB,34.0,38.0,141.1
+34,Julian Edelman,WR,35.0,7.0,256.3
+35,Chris Carson ,RB,36.0,0.0,0.0
+36,Derrick Henry,RB,37.0,5.0,294.6
+37,Brandin Cooks,WR,38.0,62.0,117.5
+38,T.Y. Hilton,WR,39.0,57.0,125.1
+39,Robert Woods,WR,40.0,14.0,232.9
+40,Marlon Mack,RB,41.0,22.0,181.3
+41,Melvin Gordon III,RB,42.0,23.0,180.8
+42,Deshaun Watson,QB,43.0,5.0,333.0
+43,Kenny Golladay,WR,44.0,9.0,248.0
+44,Mark Ingram II,RB,45.0,11.0,242.5
+45,David Montgomery,RB,46.0,24.0,170.4
+46,Chris Godwin,WR,47.0,2.0,276.1
+47,Tyler Lockett,WR,48.0,13.0,235.2
+48,Sony Michel,RB,49.0,31.0,152.6
+49,Cooper Kupp,WR,50.0,4.0,270.5
+50,Aaron Rodgers,QB,51.0,10.0,282.0
+51,James White,RB,52.0,18.0,200.2
+52,Phillip Lindsay,RB,53.0,19.0,197.7
+53,Tyler Boyd,WR,54.0,18.0,222.9
+54,Evan Engram,TE,55.0,18.0,109.4
+55,O.J. Howard,TE,56.0,29.0,83.9
+56,Calvin Ridley,WR,57.0,27.0,197.0
+57,Baker Mayfield,QB,58.0,19.0,250.3
+58,Mike Williams,WR,59.0,41.0,161.3
+59,A.J. Green,WR,60.0,248.0,0.0
+60,Hunter Henry,TE,61.0,9.0,150.2
+61,DJ Moore,WR,62.0,16.0,230.5
+62,Jarvis Landry,WR,63.0,12.0,237.4
+63,Matt Ryan,QB,64.0,11.0,281.4
+64,Alshon Jeffery ,WR,65.0,0.0,0.0
+65,Tarik Cohen,RB,66.0,27.0,163.9
+66,Tevin Coleman,RB,67.0,39.0,135.4
+67,Austin Ekeler,RB,68.0,4.0,309.0
+68,Jared Cook,TE,69.0,7.0,167.5
+69,Allen Robinson II,WR,70.0,8.0,254.9
+70,Miles Sanders,RB,71.0,15.0,218.7
+71,Josh Gordon,WR,72.0,89.0,74.7
+72,Kenyan Drake,RB,73.0,17.0,214.2
+73,Duke Johnson Jr.,RB,74.0,29.0,154.0
+74,Robbie Anderson,WR,75.0,40.0,162.3
+75,Drew Brees,QB,76.0,22.0,228.8
+76,Derrius Guice ,RB,77.0,0.0,0.0
+77,Carson Wentz,QB,78.0,9.0,282.9
+78,Chicago Bears,DST,79.0,18.0,102.0
+79,Vance McDonald,TE,80.0,30.0,83.5
+80,Sammy Watkins,WR,81.0,50.0,138.5
+81,Russell Wilson,QB,82.0,4.0,333.5
+82,Dede Westbrook,WR,83.0,42.0,156.7
+83,Cam Newton ,QB,84.0,0.0,0.0
+84,William Fuller V,WR,85.0,53.0,134.0
+85,Sterling Shepard,WR,86.0,48.0,141.8
+86,Jared Goff,QB,87.0,13.0,263.5
+87,Christian Kirk,WR,88.0,38.0,168.2
+88,David Njoku,TE,89.0,85.0,15.1
+89,Latavius Murray,RB,90.0,28.0,157.2
+90,Corey Davis,WR,91.0,63.0,115.1
+91,Marvin Jones Jr.,WR,92.0,28.0,193.9
+92,Emmanuel Sanders,WR,93.0,30.0,190.3
+93,Curtis Samuel,WR,94.0,36.0,171.7
+94,Jordan Howard,RB,95.0,44.0,111.4
+95,LeSean McCoy,RB,96.0,41.0,118.6
+96,Larry Fitzgerald,WR,97.0,35.0,177.4
+97,Eric Ebron ,TE,98.0,0.0,0.0
+98,Rashaad Penny,RB,99.0,58.0,75.3
+99,Ben Roethlisberger ,QB,100.0,0.0,0.0
