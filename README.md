@@ -2,7 +2,7 @@
 
 **Author**: Melody Bass
 
-<img src = "./images/jordy.jpeg" width=100%> <br />
+<img src = "./images/jordy.jpg" width=80%> <br />
 
 ## Overview
 
@@ -53,7 +53,7 @@ The third datasets on the list are separated by year (2015, 2016, 2017, 2018, 20
 
 ## Historical Draft EDA
 
-<img src = "./images/all_sa_prices.jpeg" width=60%> <br />
+<img src = "./images/adp_2021_All_hist.jpeg" width=60%> <br />
 
 ### Quarterbacks
 
@@ -69,7 +69,7 @@ Quarterbacks historically have the highest average value in the 6th and 10th rou
 
 Running backs have a high value in the 1st and 2nd rounds with a steep drop off in value in the 3rd round. We can furthur see this illustrated in the 2021 Running Backs ADP vs points plot, there is a lot of high scoring talent in the first 2 rounds with some injured busts followed by a decline.
 
-<img src = "./images/adp_2021_Running Back.jpeg" width=70%> <br />
+<img src = "./images/adp_2021_Running Back_hist.jpeg" width=70%> <br />
 
 ### Wide Receivers
 
@@ -83,7 +83,7 @@ Wide Receivers historically have the most average value in the 1st round, a decr
 
 A couple of tight ends dominate the 1st and 2nd rounds (most noteably - Travis Kelce) and then there is a heavy decrease in value at the position after.
 
-<img src = "./images/adp_2021_Tight End.jpeg" width=60%> <br />
+<img src = "./images/adp_2021_Tight End_hist.jpeg" width=60%> <br />
 
 ### Kickers
 
@@ -102,8 +102,6 @@ The defense position has the highest average fantasy points after the intial dra
 ## ARIMAX Modeling
 
 After developing a data driven draft strategy, I built an ARIMAX time series model using each player's weekly PPR fantasy points and snaps counts data from NFL seasons 2017 - 2021 to project the 2022 season.
-
-<img src = "./images/roi_5_year.jpeg" width=60%> <br />
 
 ### Seasonality
 
@@ -129,7 +127,7 @@ I used dynamic forecasting and projected PPR fantasy points for the 16 games of 
 
 We can also see Kirk Cousin's forecasts were spot on with an RMSE of 4.4 points!
 
-<img src = "./images/K_cous_ose" width=60%> 
+<img src = "./images/k_cous_ose" width=60%> 
 
 ## Interpret Results
 
