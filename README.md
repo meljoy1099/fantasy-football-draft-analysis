@@ -16,7 +16,7 @@ An ARIMAX time series model was built utilizing weekly player PPR fantasy points
 
 Nathan Hall has just started a new job where the office takes their fantasy football league very seriously, often spending hours during the day talking about the league. In an effort to be a top competitor in the fantasy football league and talk the talk, Nathan has hired me to provide data driven strategies for the 2022 fantasy football draft.
 
-The results of this project are geared towards the settings of Nathan's league.  The league that he will be competing in consists of 12 teams, uses PPR scoring, and has a randomly set snaking draft order. The positions he will be drafting are as follows:
+The results of this project are geared towards the settings of Nathan's league.  The league in which he will be competing consists of 12 teams, PPR scoring, and has a randomly set snaking draft order. The positions he will be drafting are as follows:
 
 * 1 Quarterback
 * 2 Running Backs
@@ -57,17 +57,19 @@ The third datasets on the list are separated by year (2015, 2016, 2017, 2018, 20
 
 ### Quarterbacks
 
-Quarterbacks score the most points as a group, so we will see several quarterbacks that are far above their projected ADP like we do in the above 2021 ADP vs Actual points plot. There was a time quarterbacks would go in the first round in fantasy drafts for this reason, but the industry has wised up since then to have our top quarterbacks going in the 2nd, 3rd, and 4th rounds. There is not as much spread across this position and first picks should focus on other positions with a higher spread. 
+Quarterbacks score the most points as a group, so we would see several quarterbacks that are far above their projected ADP like we do in the above 2021 ADP vs Actual points plot. There was a time when quarterbacks would go in the first round in fantasy drafts for this reason, but the industry has wised up since then to have our top quarterbacks going in the 2nd, 3rd, and 4th rounds. There is not a large spread across this position and first picks should focus on other positions with a higher spread. 
 
 <img src = "./images/round_pts_Quarterback_2015-2021.jpeg" width=50%> <br />
 
-Quarterbacks historically have the highest average value in the 6th and 10th round of the draft.
+Quarterbacks historically have the highest average value in the 6th and 10th round of the draft. In 2021, these key 6th round picks would have been Justin Herbert and Tom Brady.
+
+<img src = "./images/adp_2021_Quarterback_hist.jpeg" width=70%> <br />
 
 ### Running Backs
 
 <img src = "./images/round_pts_Running Back_2015-2021.jpeg" width=50%> <br />
 
-Running backs have a high value in the 1st and 2nd rounds with a steep drop off in value in the 3rd round. We can furthur see this illustrated in the 2021 Running Backs ADP vs points plot, there is a lot of high scoring talent in the first 2 rounds with some injured busts followed by a decline.
+Running backs have a high value in the 1st and 2nd rounds with a steep drop off in value in the 3rd round. We can furthur see this illustrated in the 2021 Running Backs ADP vs points plot, there is a lot of high scoring talent in the first 2 rounds with some injured busts followed by a decline in value.
 
 <img src = "./images/adp_2021_Running Back_hist.jpeg" width=80%> <br />
 
@@ -77,13 +79,20 @@ Wide Receivers historically have the most average value in the 1st round, a decr
 
 <img src = "./images/round_pts_Wide Receiver_2015-2021.jpeg" width=50%> <br />
 
+In 2020 and 2021, there were too many great 3rd, 4th, and 5th round wide receiver to name individually.
+
+<img src = "./images/adp_2020_Wide Receiver_hist.jpeg" width=60%> <img src = "./images/adp_2021_Wide Receiver_hist.jpeg" width=60%> <br />
+
 ### Tight Ends
 
 <img src = "./images/round_pts_Tight End_2015-2021.jpeg" width=50%> <br />
 
 A couple of tight ends dominate the 1st and 2nd rounds (most noteably - Travis Kelce) and then there is a heavy decrease in value at the position after.
 
-<img src = "./images/adp_2021_Tight End_hist.jpeg" width=80%> <br />
+<img src = "./images/adp_2019_Tight End_hist.jpeg" width=70%> <br /> 
+<img src = "./images/adp_2021_Tight End_hist.jpeg" width=70%> <br />
+
+In 5 years there have only been 3 late round tight end steals in Zach Ertz (2017, round 7), Darren Waller (2020, round 5), and Mark Andrews (2021, round 4). We can conclude that we are basically throwing darts while blindfolded if we do not take a top tier tight end by the end of the second round. 
 
 ### Kickers
 
@@ -95,9 +104,14 @@ Round 11 sees the highest average points for kickers, followed closely by round 
 
 <img src = "./images/round_pts_Defense_2015-2021.jpeg" width=50%> <br />
 
-The defense position has the highest average fantasy points after the intial draft (round 16+). Some years like the 2021 draft show positive regression towards the later draft picks and the top scoring defense taken after the intial draft. The best strategy for defense is to stream by match ups every week. 
+The defense position has the highest average fantasy points after the intial draft (round 16+). Some years like the 2021 draft show positive regression towards the later draft picks. 
 
 <img src = "./images/adp_2021_Defense_hist.jpeg" width=70%> <br />
+
+Most years the top scoring defense is taken after the intial draft like we see in 2020. The best strategy for defense is to stream by match ups every week. 
+
+<img src = "./images/adp_2020_Defense_hist.jpeg" width=70%> <br />
+
 
 ## ARIMAX Modeling
 
@@ -131,7 +145,7 @@ We can also see Kirk Cousin's forecasts were spot on with an RMSE of 4.4 points!
 
 ## Interpret Results
 
-I took the sum of the 16 projected 2022 NFL games to calculate season long predictions and compared them to ADP to identify steals and busts of the 2022 draft.
+I took the sum of the 16 projected 2022 NFL games to calculate season long predictions and compared them to ADP to identify the steals and busts of the 2022 draft.
 
 <img src = "./images/adp_2022_All Positions_projections.jpeg" width=90%> <br />
 
@@ -139,21 +153,26 @@ An overall view of the ADP vs projected points gives a clear view of the steals 
 
 <img src = "./images/adp_2022_Running Back_projections.jpeg" width=80%> <br />
 
-The high value of Cooper Kupp, Davante Adams, Tyreek Hill, and Diontae Johnson is highlighted below.
+The high value of Cooper Kupp, Davante Adams, Tyreek Hill, Diontae Johnson, Chris Godwin, and Adam Thielen is highlighted below.
 
 <img src = "./images/adp_2022_Wide Receiver_projections.jpeg" width=80%> <br />
 
-Travis Kelce and Mark Andrews dominate the ADP at their respective position.
+Travis Kelce, Mark Andrews, and George Kittle dominate the ADP at their respective position.
 
 <img src = "./images/adp_2022_Tight End_projections.jpeg" width=80%> <br />
+
+All of these players are boom or bust, but you don't want to be caught without them in your starting lineup on game day when they score 40+ points.  George Kittle's career has been riddled with injuries making the error in his forecast higher than Travis Kelce and Mark Andrews, and he is therefore a riskier draft pick.
+
+<img src = "./images/barplot_Tight End.jpeg" width=60%> <br />
+
 
 ## Recommendations
 
 Unfortunately fantasy football drafts are not a one size fits all approach.  Every draft is going to be different and you will have to adapt to your draft order and what is on the board when your turn comes to draft. Using these data driven strategies and the high value model forecasts will put you in the best position to build a high caliber fantasy team.  No matter how you go about the draft, you will likely feel shaky in one of your starter spots. That's OK. That is the nature of the game due to the large loss of value in the 7th round. Choosing what position (te, wr, rb) you are weak at will be entirely up to you and how the draft is going.  
 
-<img src = "./images/round_1_7.jpeg" width=60%> <br />
+<img src = "./images/round_1_7.jpeg" width=70%> <br />
 
-* __Round 1__ - Round 1 has high performers (and some busts) in all positions, although running back's value are limited to a few rounds, so we want to take a running back here to set ourselves up for a 2nd round tight end draft pick. There is high value in the wide receiver position in round 1 too, but be prepared to take a running back as your 2nd round pick and have a weak tight end pick in round 7 with that decision.
+* __Round 1__ - Round 1 has high performers (and some busts) in all positions, although running back's value are limited to a few rounds, so we want to take a running back here to set ourselves up for a 2nd round tight end draft pick. There is high value in the wide receiver position in round 1 too, but be prepared to take a running back as your 2nd round pick and a weak 7th round tight end pick should you make that decision.
 * __Round 2__ - We actively want to target a tight end in this round - there is more value in the tight end position than any other position in round 2. However, there are only 2 tights ends on average in the 2nd round and 12 picks, so do the math.  If you cannot grab a tight end here, we will go for another high value wide receiver or running back.
 * __Round 3__ - Round 3 shows a heavy decrease in running back value, but maintained wide receiver value.  We want to target a wide receiver in round 3.
 * __Round 4__ - Wide receiver or running back based on previous picks - the value is not at running back here.
@@ -161,7 +180,7 @@ Unfortunately fantasy football drafts are not a one size fits all approach.  Eve
 * __Round 6__ - Quarterbacks have the highest average value in round 6.  We want to target a quarterback in this round. We see a significant drop in receiver and running back value in this round.
 * __Round 7__ - We will draft a tight end here if not drafted in the 2nd round due to the low value of the position after round 2. If tight end was already drafted, we will go for a wide receiver or running back based on previous picks to fill out our flex spot.
 
-<img src = "./images/round_8_13.jpeg" width=60%> <br />
+<img src = "./images/round_8_13.jpeg" width=70%> <br />
 
 * __Rounds 8-13__ - Here we will be loading up on late round sleepers and rookies in the wide receiver and running back positions. There is high value in the quarterback position in round 10 if you chose to stash a backup quarterback.  There is a small spread in quarterback points in this range and streaming on bye weeks is as good a strategy as any.  
 
@@ -179,6 +198,10 @@ __Biggest Busts of the 2022 Draft:__
 * Allen Robinson II (round 6)
 * T.J. Hockenson (round 6)
 * Dallas Geodert (round 6)
+* Russell Wilson (round 7)
+* Tony Pollard (round 7)
+* Christian Kirk (round 9)
+* Mike Gesicki (round 11)
 
 __Biggest Steals of the 2022 Draft:__
 
