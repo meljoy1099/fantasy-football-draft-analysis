@@ -53,51 +53,51 @@ The third datasets on the list are separated by year (2015, 2016, 2017, 2018, 20
 
 ## Historical Draft EDA
 
-<img src = "./images/adp_2021_All_hist.jpeg" width=60%> <br />
+<img src = "./images/adp_2021_All_hist.jpeg" width=90%> <br />
 
 ### Quarterbacks
 
 Quarterbacks score the most points as a group, so we will see several quarterbacks that are far above their projected ADP like we do in the above 2021 ADP vs Actual points plot. There was a time quarterbacks would go in the first round in fantasy drafts for this reason, but the industry has wised up since then to have our top quarterbacks going in the 2nd, 3rd, and 4th rounds. There is not as much spread across this position and first picks should focus on other positions with a higher spread. 
 
-<img src = "./images/round_pts_Quarterback_2015-2021.jpeg" width=70%> <br />
+<img src = "./images/round_pts_Quarterback_2015-2021.jpeg" width=50%> <br />
 
 Quarterbacks historically have the highest average value in the 6th and 10th round of the draft.
 
 ### Running Backs
 
-<img src = "./images/round_pts_Running Back_2015-2021.jpeg" width=70%> <br />
+<img src = "./images/round_pts_Running Back_2015-2021.jpeg" width=50%> <br />
 
 Running backs have a high value in the 1st and 2nd rounds with a steep drop off in value in the 3rd round. We can furthur see this illustrated in the 2021 Running Backs ADP vs points plot, there is a lot of high scoring talent in the first 2 rounds with some injured busts followed by a decline.
 
-<img src = "./images/adp_2021_Running Back_hist.jpeg" width=70%> <br />
+<img src = "./images/adp_2021_Running Back_hist.jpeg" width=80%> <br />
 
 ### Wide Receivers
 
 Wide Receivers historically have the most average value in the 1st round, a decrease in the 2nd and 3rd rounds, with a gradual decrease through the rest of the rounds. There is a lot of value in the 4th and 5th rounds for wide receivers.
 
-<img src = "./images/round_pts_Wide Receiver_2015-2021.jpeg" width=60%> <br />
+<img src = "./images/round_pts_Wide Receiver_2015-2021.jpeg" width=50%> <br />
 
 ### Tight Ends
 
-<img src = "./images/round_pts_Tight End_2015-2021.jpeg" width=60%> <br />
+<img src = "./images/round_pts_Tight End_2015-2021.jpeg" width=50%> <br />
 
 A couple of tight ends dominate the 1st and 2nd rounds (most noteably - Travis Kelce) and then there is a heavy decrease in value at the position after.
 
-<img src = "./images/adp_2021_Tight End_hist.jpeg" width=60%> <br />
+<img src = "./images/adp_2021_Tight End_hist.jpeg" width=80%> <br />
 
 ### Kickers
 
-<img src = "./images/round_pts_Kicker_2015-2021.jpeg" width=60%> <br />
+<img src = "./images/round_pts_Kicker_2015-2021.jpeg" width=50%> <br />
 
 Round 11 sees the highest average points for kickers, followed closely by round 16+ (after initial draft).
 
 ### Defense
 
-<img src = "./images/round_pts_Defense_2015-2021.jpeg" width=60%> <br />
+<img src = "./images/round_pts_Defense_2015-2021.jpeg" width=50%> <br />
 
 The defense position has the highest average fantasy points after the intial draft (round 16+). Some years like the 2021 draft show positive regression towards the later draft picks and the top scoring defense taken after the intial draft. The best strategy for defense is to stream by match ups every week. 
 
-<img src = "./images/adp_2021_Defense.jpeg" width=60%> <br />
+<img src = "./images/adp_2021_Defense_hist.jpeg" width=70%> <br />
 
 ## ARIMAX Modeling
 
@@ -127,17 +127,17 @@ I used dynamic forecasting and projected PPR fantasy points for the 16 games of 
 
 We can also see Kirk Cousin's forecasts were spot on with an RMSE of 4.4 points!
 
-<img src = "./images/k_cous_ose" width=60%> 
+<img src = "./images/k_cous_ose.png" width=60%> 
 
 ## Interpret Results
 
 I took the sum of the 16 projected 2022 NFL games to calculate season long predictions and compared them to ADP to identify steals and busts of the 2022 draft.
 
-<img src = "./images/adp_2022_All Positions_projections.jpeg" width=60%> <br />
+<img src = "./images/adp_2022_All Positions_projections_scatter.jpeg" width=60%> <br />
 
 An overall view of the ADP vs projected points gives a clear view of the steals and busts of the 2022 fantasy football draft. We have several quarterbacks far off the regression line as expected due to the spread of the position. We can also take a look at the running back position where we see Derrick Henry and Alvin Kamara as the top running back steals of the draft.
 
-<img src = "./images/adp_2022_Running Back_projections.jpeg" width=60%> <br />
+<img src = "./images/adp_2022_Running Back_projections_scatter.jpeg" width=60%> <br />
 
 ## Recommendations
 
@@ -159,7 +159,7 @@ Unfortunately fantasy football drafts are not a one size fits all approach.  Eve
 
 <img src = "./images/round_14-16.jpeg" width=60%> <br />
 
-* __Round 14__ - Kicker or Defense. Repeat after me. I will NOT defy the fantasy gods and draft a kicker or defense until the last 2 rounds of the draft and I will NEVER have a backup of either and I swear to check streamers every week. Amen.
+* __Round 14__ - Kicker or Defense. Repeat after me. I will NOT defy the fantasy gods and draft a kicker or defense until the last 2 rounds of the draft, I will NEVER have a backup of either, and I swear to check streamers every week. Amen.
 * __Round 15__ - Kicker or Defense. See __Round 14__.
 
 __Biggest Busts of the 2022 Draft:__
