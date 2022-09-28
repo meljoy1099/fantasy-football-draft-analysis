@@ -133,11 +133,11 @@ We can also see Kirk Cousin's forecasts were spot on with an RMSE of 4.4 points!
 
 I took the sum of the 16 projected 2022 NFL games to calculate season long predictions and compared them to ADP to identify steals and busts of the 2022 draft.
 
-<img src = "./images/adp_2022_All Positions_projections_scatter.jpeg" width=60%> <br />
+<img src = "./images/adp_2022_All Positions_projections.jpeg" width=60%> <br />
 
 An overall view of the ADP vs projected points gives a clear view of the steals and busts of the 2022 fantasy football draft. We have several quarterbacks far off the regression line as expected due to the spread of the position. We can also take a look at the running back position where we see Derrick Henry and Alvin Kamara as the top running back steals of the draft.
 
-<img src = "./images/adp_2022_Running Back_projections_scatter.jpeg" width=60%> <br />
+<img src = "./images/adp_2022_Running Back_projections.jpeg" width=60%> <br />
 
 ## Recommendations
 
