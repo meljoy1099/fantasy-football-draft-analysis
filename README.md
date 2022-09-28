@@ -153,8 +153,8 @@ Unfortunately fantasy football drafts are not a one size fits all approach.  Eve
 
 <img src = "./images/round_1_7.jpeg" width=60%> <br />
 
-* __Round 1__ - Round 1 has high performers (and some busts) in all positions, although running back's value are limited to a few rounds, so we want to take a running back here.
-* __Round 2__ - We actively want to target a tight end in this round - there is more value in the tight end position than any other position in round 2. However, there are only 2 tights ends on average in the 2nd round and 12 picks, so do the math.  If you cannot grab a tight end here, we will go for another high value wide receiver or running back
+* __Round 1__ - Round 1 has high performers (and some busts) in all positions, although running back's value are limited to a few rounds, so we want to take a running back here to set ourselves up for a 2nd round tight end draft pick. There is high value in the wide receiver position in round 1 too, but be prepared to take a running back as your 2nd round pick and have a weak tight end pick in round 7 with that decision.
+* __Round 2__ - We actively want to target a tight end in this round - there is more value in the tight end position than any other position in round 2. However, there are only 2 tights ends on average in the 2nd round and 12 picks, so do the math.  If you cannot grab a tight end here, we will go for another high value wide receiver or running back.
 * __Round 3__ - Round 3 shows a heavy decrease in running back value, but maintained wide receiver value.  We want to target a wide receiver in round 3.
 * __Round 4__ - Wide receiver or running back based on previous picks - the value is not at running back here.
 * __Round 5__ - Wide receiver or running back based on previous picks - the value is not at running back here.
