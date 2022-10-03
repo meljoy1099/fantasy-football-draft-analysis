@@ -14,7 +14,7 @@ An ARIMAX time series model was built utilizing weekly player PPR fantasy points
 
 ## Business Problem
 
-Nathan Hall has just started a new job where the office takes their fantasy football league very seriously, often spending hours during the day talking about the league. In an effort to be a top competitor in the fantasy football league and talk the talk, Nathan has hired me to provide data driven strategies for the 2022 fantasy football draft.
+Nathan Hall will be competing in high stakes fantasy football leagues to earn money.  He will be using the results of the model predictions to draft his 2022 fantasy teams.
 
 The results of this project are geared towards the settings of Nathan's league.  The league in which he will be competing consists of 12 teams, PPR scoring, and has a randomly set snaking draft order. The positions he will be drafting are as follows:
 
@@ -79,7 +79,7 @@ Wide Receivers historically have the most average value in the 1st round, a decr
 
 <img src = "./images/round_pts_Wide Receiver_2015-2021.jpeg" width=50%> <br />
 
-In 2020 and 2021, there were too many great 3rd, 4th, and 5th round wide receiver to name individually.
+In 2020 and 2021, there were too many great 3rd, 4th, and 5th round wide receivers whose season end points were worthy of a 1st or 2nd round pick to name individually.
 
 <img src = "./images/adp_2020_Wide Receiver_hist.jpeg" width=60%> <img src = "./images/adp_2021_Wide Receiver_hist.jpeg" width=60%> <br />
 
@@ -108,14 +108,17 @@ The defense position has the highest average fantasy points after the intial dra
 
 <img src = "./images/adp_2021_Defense_hist.jpeg" width=70%> <br />
 
-Most years the top scoring defense is taken after the intial draft like we see in 2020. The best strategy for defense is to stream by match ups every week. 
+Most years the top scoring defense is taken after the intial draft like we see in 2020. The best strategy for defense is to target a late round defense with a good week 1 matchup, and continue to use free agent defenses that have a good match up that week. 
 
 <img src = "./images/adp_2020_Defense_hist.jpeg" width=70%> <br />
 
+## Baseline Linear Regression Model
+
+The average error in the predictions (RMSE) from a linear regression model for the 2021 season were 12.4 points for quarterbacks, 10.5 points for running backs, 9.6 points for wide receivers, and 8.7 points for tight ends.  To improve upon these scores, I deployed an ARIMAX time series model.
 
 ## ARIMAX Modeling
 
-After developing a data driven draft strategy, I built an ARIMAX time series model using each player's weekly PPR fantasy points and snaps counts data from NFL seasons 2017 - 2021 to project the 2022 season.
+To best implement a data driven draft strategy, I built an ARIMAX time series model using each player's weekly PPR fantasy points and snaps counts data from NFL seasons 2017 - 2021 to project the 2022 season.
 
 ### Seasonality
 
@@ -143,17 +146,27 @@ We can also see Kirk Cousin's forecasts were spot on with an RMSE of 4.4 points!
 
 <img src = "./images/k_cous_ose.png" width=60%> 
 
+The average overall error in this model's 2021 prediction by position is as follows: 
+* Quarterbacks - 6.2 points
+* Running backs - 5.3 points
+* Wide Receivers - 5.8 points
+* Tight Ends - 5.8 points
+
 ## Interpret Results
 
-I took the sum of the 16 projected 2022 NFL games to calculate season long predictions and compared them to ADP to identify the steals and busts of the 2022 draft.
+I took the sum of the 16 projected 2022 NFL games to calculate season long predictions and compared them to ADP to identify the steals and busts of the 2022 draft. These illustrations also serve as a guide to your draft, in which you will avoid drafting players below the regression line and instead add players that are above the regression line. The higher the player is off of the regression line when plotted vs their respective position, the more one should focus their efforts on drafting that player.
 
 <img src = "./images/adp_2022_All Positions_projections.jpeg" width=90%> <br />
 
-An overall view of the ADP vs projected points gives a clear view of the steals and busts of the 2022 fantasy football draft. We have several quarterbacks far off the regression line as expected due to the spread of the position. We can also take a look at the running back position where we see Derrick Henry and Alvin Kamara as the top running back steals of the draft.
+An overall view of the ADP vs projected points gives a clear view of the steals and busts of the 2022 fantasy football draft. We have several quarterbacks far off the regression line as expected due to the spread of the position, but when filtered for quarterbacks, we see the steals by position in Josh Allen, Patrick Mahomes, Aaron Rodgers, and Tom Brady. Quarterback busts are Lamar Jackson, Derek Carr, Matthew Stafford, and Russell Wilson.
+
+<img src = "./images/adp_2022_Quarterback_projections.jpeg" width=80%> <br />
+
+We can also take a look at the running back position where we see Derrick Henry and Alvin Kamara as the top running back steals of the draft, and Dalvin Cook, Joe Mixon, and Saquon Barkley projected to underscore at their ADP. 
 
 <img src = "./images/adp_2022_Running Back_projections.jpeg" width=80%> <br />
 
-The high value of Cooper Kupp, Davante Adams, Tyreek Hill, Diontae Johnson, Chris Godwin, and Adam Thielen is highlighted below.
+The high value of Cooper Kupp, Davante Adams, Tyreek Hill, Diontae Johnson, Chris Godwin, and Adam Thielen is highlighted below. Wide receiver busts are forecasted to be Stefon Diggs, Courtland Sutton, Allen Robinson II, among many others.
 
 <img src = "./images/adp_2022_Wide Receiver_projections.jpeg" width=80%> <br />
 
@@ -165,10 +178,13 @@ All of these players are boom or bust, but you don't want to be caught without t
 
 <img src = "./images/barplot_Tight End.jpeg" width=60%> <br />
 
-
 ## Recommendations
 
-Unfortunately fantasy football drafts are not a one size fits all approach.  Every draft is going to be different and you will have to adapt to your draft order and what is on the board when your turn comes to draft. Using these data driven strategies and the high value model forecasts will put you in the best position to build a high caliber fantasy team.  No matter how you go about the draft, you will likely feel shaky in one of your starter spots. That's OK. That is the nature of the game due to the large loss of value in the 7th round. Choosing what position (te, wr, rb) you are weak at will be entirely up to you and how the draft is going.  
+Unfortunately fantasy football drafts are not a one size fits all approach. Every draft is going to be different and you will have to adapt to your draft order and what is on the board when your turn comes to draft. Using these data driven strategies and the high value model forecasts will put you in the best position to build a high caliber fantasy team.
+
+Building a high caliber fantasy football team that will win leagues isn't as easy as saying, "Pick the top projected player when your turn comes to draft", but instead it is about building a team of reliable players that outscore their ADP. The strategy is easy to follow, using the output of the model (2022 season points) plotted vs. player ADP, you will avoid drafting players below the regression line and add players to your team that are above the line. The higher the player is off of the regression line, the more one should focus their efforts on drafting that player.
+
+We can take the output of our model and take it a step further using the historical draft data as our guide. We identified where the most position value was in each round of the draft. We can identify players projected to beat their ADP to target in the rounds where we know that position has the most value. No matter how you go about the draft, you will likely feel shaky in one of your starter spots. That's OK. That is the nature of the game due to the large loss of value in the 7th round. Choosing what position (te, wr, rb) you are weak at will be entirely up to you and how the draft is going.
 
 <img src = "./images/round_1_7.jpeg" width=70%> <br />
 
